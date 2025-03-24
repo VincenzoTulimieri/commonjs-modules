@@ -5,8 +5,8 @@ console.log(myHobbies)
 
 function  myProfile(){
     return {
-        fullName: myName,
-        hobbies: myHobbies
+        fullName: myName(),
+        hobbies: myHobbies()
     }
 }
 
